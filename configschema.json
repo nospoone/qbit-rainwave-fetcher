@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "qbit-rainwave-fetcher Config Schema.",
+  "properties": {
+    "enableCache": {
+      "type": "boolean",      
+      "description": "Whether or not cache is enabled.",
+      "default": true
+    },
+    "cachePath": {
+      "type": "string",
+      "title": "cachePath",
+      "description": "When cache is enabled, path to where it is located.",
+      "default": "cache/"
+    }
+  },
+  "required": [
+    "enableCache",
+    "cachePath"
+  ]
+}
