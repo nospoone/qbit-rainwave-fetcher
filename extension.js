@@ -4,8 +4,9 @@ const EventEmitter = require('events').EventEmitter;
 const fs = require('fs');
 const path = require('path');
 const request = require('request');
-const parseInfo = require('./parse-info');
 const express = require('express');
+const parseInfo = require('./parse-info');
+
 const app = express();
 
 module.exports = function (nodecg) {

@@ -1,6 +1,6 @@
 {
   "name": "qbit-rainwave-fetcher",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Fetches Rainwave's currently playing song information and caches the album art.",
   "homepage": "https://github.com/nospoone/qbit-rainwave-fetcher",
   "author": {
